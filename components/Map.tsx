@@ -12,7 +12,7 @@ const Map = () => {
         <div style={{ height: "100%", width: "100%" }} >
 
             <MapContainer
-                // className="h-full w-full"
+                className="h-full w-full"
                 style={{ height: "100%", width: "100%" }}
                 center={position}
                 zoom={13}
