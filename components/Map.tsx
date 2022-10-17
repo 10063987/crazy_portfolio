@@ -6,17 +6,16 @@ import "leaflet-defaulticon-compatibility";
 
 
 const Map = () => {
-    const position: LatLngExpression = [51.505, -0.09]
+    const position: LatLngExpression = [19.407928, -99.135997]
 
     return (
         <div style={{ height: "100%", width: "100%" }} >
-
             <MapContainer
                 className="h-full w-full"
                 style={{ height: "100%", width: "100%" }}
                 center={position}
                 zoom={13}
-                scrollWheelZoom={false}
+                scrollWheelZoom={true}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
